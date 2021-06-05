@@ -2,9 +2,10 @@
 using Org.BouncyCastle.Security;
 using PeterO.Cbor;
 using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Security.Cryptography;
+using System.Security.Cryptography.X509Certificates;
 
 namespace DGC
 {
